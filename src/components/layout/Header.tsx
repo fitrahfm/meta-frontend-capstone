@@ -22,7 +22,7 @@ const Header: React.FC = () => {
       <header className='m-4 lg:max-w-3xl lg:mx-auto'>
         <div className="flex justify-between items-center">
           <figure>
-            <img src="/src/assets/Logo.svg" alt="Little Lemon Logo" className="logo" />
+            <img src="/Logo.svg" alt="Little Lemon Logo" className="logo" />
           </figure>
           <Navbar />
           <nav className="lg:hidden">
