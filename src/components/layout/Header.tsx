@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Navbar, MobileNavbar } from '../layout'
 
+import logo from '../../assets/Logo.svg'
 import { Menu, X } from 'react-feather';
 
 const Nav: React.FC<{isClicked: boolean }> = ({isClicked}) => {
@@ -22,7 +23,7 @@ const Header: React.FC = () => {
       <header className='m-4 lg:max-w-3xl lg:mx-auto'>
         <div className="flex justify-between items-center">
           <figure>
-            <img src="/Logo.svg" alt="Little Lemon Logo" className="logo" />
+            <img src={logo} alt="Little Lemon Logo" className="logo" />
           </figure>
           <Navbar />
           <nav className="lg:hidden">
