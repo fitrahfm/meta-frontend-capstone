@@ -6,11 +6,11 @@ import { Menu, X } from 'react-feather';
 const Nav: React.FC<{isClicked: boolean }> = ({isClicked}) => {
   if (!isClicked) {
     return (
-      <Menu color='#000000' size="24" />
+      <Menu color="black" size="24" />
     )
   } else {
     return (
-      <X color='#000000' size="24" />
+      <X color="black" size="24" />
     )
   }
 }

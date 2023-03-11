@@ -1,26 +1,26 @@
 {
   "data": [{
-    "icon": "Home",
+    "icon": "home",
     "name": "Home",
     "url": "/"
   }, {
-    "icon": "Info",
+    "icon": "info",
     "name": "About",
     "url": "/"
   }, {
-    "icon": "BookOpen",
+    "icon": "book-open",
     "name": "Menu",
     "url": "/"
   }, {
-    "icon": "Calendar",
+    "icon": "calendar",
     "name": "Reservations",
     "url": "/"
   }, {
-    "icon": "Globe",
+    "icon": "globe",
     "name": "Order Online",
     "url": "/"
   }, {
-    "icon": "LogIn",
+    "icon": "arrow-left-on-rectangle",
     "name": "Login",
     "url": "/"
   }]

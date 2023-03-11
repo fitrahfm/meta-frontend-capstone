@@ -1,6 +1,4 @@
 import { FunctionComponent, ReactNode, useState } from "react"
-import { Menu } from 'react-feather';
-
 import NavLinks from '../../data/navigation.json';
 
 interface Link {
