@@ -1,0 +1,27 @@
+{
+  "data": [{
+    "icon": "Home",
+    "name": "Home",
+    "url": "/"
+  }, {
+    "icon": "Info",
+    "name": "About",
+    "url": "/"
+  }, {
+    "icon": "BookOpen",
+    "name": "Menu",
+    "url": "/"
+  }, {
+    "icon": "Calendar",
+    "name": "Reservations",
+    "url": "/"
+  }, {
+    "icon": "Globe",
+    "name": "Order Online",
+    "url": "/"
+  }, {
+    "icon": "LogIn",
+    "name": "Login",
+    "url": "/"
+  }]
+}
