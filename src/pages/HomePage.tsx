@@ -1,9 +1,10 @@
-import { Hero } from "../components";
+import { HeroSection, ThisWeekSection } from "../components";
 
 const HomePage = () => {
   return (
     <>
-      <Hero />
+      <HeroSection />
+      <ThisWeekSection />
     </>
   );
 };

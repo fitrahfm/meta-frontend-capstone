@@ -3,7 +3,7 @@ import CTAButton from "./CTAButton"
 
 import HeroImage from '../assets/restauranfood.jpg';
 
-const Layout: FunctionComponent = () => {
+const HeroSection: FunctionComponent = () => {
   return (
     <>
       <div className="bg-[#495E57] px-4 py-6">
@@ -25,4 +25,4 @@ const Layout: FunctionComponent = () => {
   )
 }
 
-export default Layout
+export default HeroSection;

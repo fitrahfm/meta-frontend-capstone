@@ -20,7 +20,7 @@ const Header: React.FC = () => {
   const [isClicked, setIsClicked] = useState(false);
   return (
     <>
-      <header className='m-4 lg:max-w-3xl lg:mx-auto'>
+      <header className='m-4 lg:max-w-6xl lg:mx-auto'>
         <div className="flex justify-between items-center">
           <figure>
             <img src={logo} alt="Little Lemon Logo" className="logo" />
