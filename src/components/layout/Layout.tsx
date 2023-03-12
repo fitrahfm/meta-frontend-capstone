@@ -5,7 +5,7 @@ const Layout: FunctionComponent<{ children: ReactNode }> = ({ children }) => {
   return (
     <>
       <Header />
-      <div className="container">
+      <div className="lg:max-w-3xl lg:mx-auto">
         { children }
       </div>
       <Footer />
