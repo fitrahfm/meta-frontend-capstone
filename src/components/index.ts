@@ -8,3 +8,4 @@ export { default as TestiCard} from "./TestiCard";
 export { default as HeroSection } from "./HeroSection";
 export { default as ThisWeekSection } from "./ThisWeekSection";
 export { default as TestimonialSection } from "./TestimonialSection";
+export { default as AboutSection } from "./AboutSection";

@@ -1,4 +1,4 @@
-import { HeroSection, TestimonialSection, ThisWeekSection } from "../components";
+import { AboutSection, HeroSection, TestimonialSection, ThisWeekSection } from "../components";
 
 const HomePage = () => {
   return (
@@ -6,6 +6,7 @@ const HomePage = () => {
       <HeroSection />
       <ThisWeekSection />
       <TestimonialSection />
+      <AboutSection />
     </>
   );
 };
