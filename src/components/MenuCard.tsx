@@ -10,7 +10,7 @@ interface IMenuCardProps {
 
 const MenuCard: React.FC<IMenuCardProps> = ({children, name, price, image}) => {
   return (
-    <Card width={20} padding="0" bgColor="#EDEFEE">
+    <Card padding="0" bgColor="#EDEFEE">
       <figure className='w-96 h-60 overflow-hidden'>
         <img className="w-full max-w-3xl" src={image} alt="" />
       </figure>

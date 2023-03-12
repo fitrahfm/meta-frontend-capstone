@@ -1,10 +1,11 @@
-import { HeroSection, ThisWeekSection } from "../components";
+import { HeroSection, TestimonialSection, ThisWeekSection } from "../components";
 
 const HomePage = () => {
   return (
     <>
       <HeroSection />
       <ThisWeekSection />
+      <TestimonialSection />
     </>
   );
 };
